@@ -6,4 +6,4 @@ meat = input("What type of meat? ")
 
 veggie = input("What type of vegetable? ")
 
-print("One pizza with", cheese, ",", meat, ", and", veggie, "coming right up!")
+print("One pizza with " + cheese + ", " + meat + ", and " + veggie + " coming right up!")
