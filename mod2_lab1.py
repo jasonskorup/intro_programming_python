@@ -16,8 +16,7 @@ last_four = split_phone[2]
 first_three = user_name[0:3]
 
 user_id = first_three + last_four
-
-# Cheating here to get it to pass. Need to replace 0 index with Z somehow.
+user_id = user_id[1:]
 user_id = "Z" + user_id
 
 # Print results
