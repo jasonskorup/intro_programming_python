@@ -1,11 +1,11 @@
 names = ['mark', 'henry', 'matthew', 'paul', 'robert', 'joseph', 'carl', 'luke', 'robert', 'joseph', 'carl', 'michael',
          'mark', 'henry', 'matthew', 'ada', 'grace', 'susan', 'hedy', 'radia']
 
-letter_counts = {}
+name_counts = {}
 for x in names:
-    if x in letter_counts:
-        letter_counts[x] = letter_counts[x] + 1
+    if x in name_counts:
+        name_counts[x] = name_counts[x] + 1
     else:
-        letter_counts[x] = 1
+        name_counts[x] = 1
 
-print(letter_counts)
+print(name_counts)
